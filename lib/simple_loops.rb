@@ -19,4 +19,8 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  
+  new_array = []
+  count = 0
+  for i in array
+    new_array[count] = i.to_s
+    count += 1
