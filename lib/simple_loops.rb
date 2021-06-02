@@ -25,4 +25,5 @@ def return_string_array(array)
     new_array[count] = i.to_s
     count += 1
   end
+  return new_array
 end
